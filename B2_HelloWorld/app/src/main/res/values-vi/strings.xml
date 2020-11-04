@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="date_of_week">
+        <item>Thứ 2</item>
+        <item>Thứ 3</item>
+        <item>Thứ 4</item>
+        <item>Thứ 5</item>
+        <item>Thứ 6</item>
+        <item>Thứ 7</item>
+        <item>Chủ nhật</item>
+    </string-array>
+
+    <integer name="varInt">123</integer>
+    <integer-array name="arrInt">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <string-array name="tinh_thanh">
+        <item>Hà Nội</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Thanh Hà</item>
+        <item>Hạ Long</item>
+    </string-array>
+
+    <string name="app_name">Chương trình đầu tiên</string>
+    <string name="spring">Mùa xuân</string>
+    <string name="summer">Mùa hè</string>
+    <string name="fall">Mùa thu</string>
+    <string name="winter">Mùa đông</string>
+</resources>

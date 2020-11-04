@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckboxActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Danh sách ngôn ngữ lập trình"
+            android:textColor="@color/colorAccent"
+            android:textSize="28sp"
+            android:textStyle="italic|bold" />
+
+        <CheckBox
+            android:id="@+id/chkPython"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Python"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/chkJava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java"
+            tools:text="Java"
+            android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/chkJS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Javascript"
+            android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/chkCPlus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C++"
+            android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/chkCSharp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C#"
+            android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/chkAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chọn tất"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Xác nhận"/>
+        <TextView
+            android:id="@+id/txtContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Đa ngôn ngữ</string>
+
+    <string-array name="season">
+        <item>Mùa xuân</item>
+        <item>Mùa hạ</item>
+        <item>Mùa thu</item>
+        <item>Mùa đông</item>
+    </string-array>
+</resources>

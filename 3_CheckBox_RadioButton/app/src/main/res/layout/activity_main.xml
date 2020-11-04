@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/chkPython"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Python"
+            android:textStyle="bold"/>
+        <CheckBox
+            android:id="@+id/chkJava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textStyle="bold"
+            android:text="Java"/>
+        <CheckBox
+            android:id="@+id/chkAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textStyle="bold"
+            android:text="All"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radBoy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Boy"/>
+
+            <RadioButton
+                android:id="@+id/radGirl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Girl"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

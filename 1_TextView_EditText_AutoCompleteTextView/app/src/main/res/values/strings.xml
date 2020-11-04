@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TextView_EditText_AutoCompleteTextView</string>
+
+    <string name="forTextView">Đây là TextView</string>
+    <string name="forEditText">Đây là EditText</string>
+    <string name="forAutoCompleteTextView">Đây là AutoCompleteTextView</string>
+
+    <string-array name="cities">
+        <item>Hà Giang</item>
+        <item>Hạ Long</item>
+        <item>Hà Nội</item>
+        <item>Hà Nam</item>
+        <item>Hà Tĩnh</item>
+    </string-array>
+</resources>

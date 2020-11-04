@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuBlue"
+        android:title="Blue Color">Tô màu xanh</item>
+
+    <item
+        android:id="@+id/menuRed"
+        android:title="Red Color">Tô màu đỏ</item>
+</menu>

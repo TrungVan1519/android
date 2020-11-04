@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GoogleMap_P2_GetPosition</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

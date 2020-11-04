@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Assets_And_Shared_Preferences'

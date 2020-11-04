@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">getResources_getAssets</string>
+    <string-array name="season">
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Autumn</item>
+        <item>Winter</item>
+    </string-array>
+
+    <integer name="number">1519</integer>
+    <integer-array name="random_number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+</resources>

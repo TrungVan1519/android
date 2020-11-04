@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimePickerActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TimePicker
+            android:id="@+id/tpTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txtHour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Nhập giờ muốn hiển thị">
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtMinute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Nhập phút muốn hiển thị">
+        </EditText>
+
+        <TableRow>
+            <Button
+                android:id="@+id/btnGetCurrentHourMinute"
+                android:textAllCaps="false"
+                android:text="Lấy giờ, phút hiện tại"/>
+
+            <Button
+                android:id="@+id/btnSetCurrentHourMinute"
+                android:textAllCaps="false"
+                android:text="Thiết lập giờ, phút hiện tại"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/btn24h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Chuyển sang chế độ 24h"/>
+
+            <Button
+                android:id="@+id/btnBackward"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Quay về DatePickerActivity"/>
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

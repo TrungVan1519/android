@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Shared Preferences</string>
+
+    <string name="user_name">Enter username</string>
+    <string name="password">Enter password</string>
+    <string name="chk_save_account">Want to save account?</string>
+    <string name="btn_login">Login</string>
+    <string name="sample_text">This is a sample text for description</string>
+</resources>

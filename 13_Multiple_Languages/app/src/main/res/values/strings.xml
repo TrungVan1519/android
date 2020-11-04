@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Multiple_Languages</string>
+
+    <string-array name="season">
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Fall</item>
+        <item>Winter</item>
+    </string-array>
+</resources>

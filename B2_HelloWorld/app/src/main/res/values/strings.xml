@@ -1,0 +1,32 @@
+<resources>
+    <string-array name="date_of_week">
+        <item>Thứ 2</item>
+        <item>Thứ 3</item>
+        <item>Thứ 4</item>
+        <item>Thứ 5</item>
+        <item>Thứ 6</item>
+        <item>Thứ 7</item>
+        <item>Chủ nhật</item>
+    </string-array>
+
+    <integer name="varInt">123</integer>
+    <integer-array name="arrInt">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <string-array name="tinh_thanh">
+        <item>HaNoi</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Thanh Hà</item>
+        <item>Hạ Long</item>
+    </string-array>
+
+    <string name="app_name">HelloWorld</string>
+    <string name="spring">Spring</string>
+    <string name="summer">Summer</string>
+    <string name="fall">Fall</string>
+    <string name="winter">Winter</string>
+</resources>

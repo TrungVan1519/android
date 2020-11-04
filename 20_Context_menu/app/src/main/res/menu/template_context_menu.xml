@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuBold"
+        android:title="In đậm">In đậm</item>
+
+    <item
+        android:id="@+id/menuItalic"
+        android:title="In nghiêng">In nghiêng</item>
+</menu>
